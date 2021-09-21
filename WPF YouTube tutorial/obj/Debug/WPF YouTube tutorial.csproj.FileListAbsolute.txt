@@ -1,0 +1,14 @@
+D:\C# Stuff\WPF YouTube tutorial\WPF YouTube tutorial\bin\Debug\WPF YouTube tutorial.exe.config
+D:\C# Stuff\WPF YouTube tutorial\WPF YouTube tutorial\bin\Debug\WPF YouTube tutorial.exe
+D:\C# Stuff\WPF YouTube tutorial\WPF YouTube tutorial\bin\Debug\WPF YouTube tutorial.pdb
+D:\C# Stuff\WPF YouTube tutorial\WPF YouTube tutorial\obj\Debug\MainWindow.g.cs
+D:\C# Stuff\WPF YouTube tutorial\WPF YouTube tutorial\obj\Debug\App.g.cs
+D:\C# Stuff\WPF YouTube tutorial\WPF YouTube tutorial\obj\Debug\WPF YouTube tutorial_MarkupCompile.cache
+D:\C# Stuff\WPF YouTube tutorial\WPF YouTube tutorial\obj\Debug\WPF YouTube tutorial_MarkupCompile.lref
+D:\C# Stuff\WPF YouTube tutorial\WPF YouTube tutorial\obj\Debug\MainWindow.baml
+D:\C# Stuff\WPF YouTube tutorial\WPF YouTube tutorial\obj\Debug\WPF YouTube tutorial.g.resources
+D:\C# Stuff\WPF YouTube tutorial\WPF YouTube tutorial\obj\Debug\WPF_YouTube_tutorial.Properties.Resources.resources
+D:\C# Stuff\WPF YouTube tutorial\WPF YouTube tutorial\obj\Debug\WPF YouTube tutorial.csproj.GenerateResource.cache
+D:\C# Stuff\WPF YouTube tutorial\WPF YouTube tutorial\obj\Debug\WPF YouTube tutorial.csproj.CoreCompileInputs.cache
+D:\C# Stuff\WPF YouTube tutorial\WPF YouTube tutorial\obj\Debug\WPF YouTube tutorial.exe
+D:\C# Stuff\WPF YouTube tutorial\WPF YouTube tutorial\obj\Debug\WPF YouTube tutorial.pdb
