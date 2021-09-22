@@ -12,3 +12,5 @@ D:\C# Stuff\WPF YouTube tutorial\WPF YouTube tutorial\obj\Debug\WPF YouTube tuto
 D:\C# Stuff\WPF YouTube tutorial\WPF YouTube tutorial\obj\Debug\WPF YouTube tutorial.csproj.CoreCompileInputs.cache
 D:\C# Stuff\WPF YouTube tutorial\WPF YouTube tutorial\obj\Debug\WPF YouTube tutorial.exe
 D:\C# Stuff\WPF YouTube tutorial\WPF YouTube tutorial\obj\Debug\WPF YouTube tutorial.pdb
+D:\C# Stuff\WPF YouTube tutorial\WPF YouTube tutorial\obj\Debug\WPF YouTube tutorial.csprojAssemblyReference.cache
+D:\C# Stuff\WPF YouTube tutorial\WPF YouTube tutorial\obj\Debug\App.baml
