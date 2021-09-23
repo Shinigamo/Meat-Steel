@@ -12,27 +12,24 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using WPF_YouTube_tutorial.Pages;
 
-namespace WPF_YouTube_tutorial
+namespace WPF_YouTube_tutorial.Pages
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for HomePage.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class HomePage : Page
     {
-        public MainWindow()
+        public HomePage()
         {
             InitializeComponent();
-
-
-            HomePage homePage = new HomePage();
-            mainFrame.NavigationService.Navigate(homePage);
-
         }
 
-        
-        
+    
 
+        private void btnNewSession_Click(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new NewSessionPage());
+        }
     }
 }

@@ -14,3 +14,7 @@ D:\C# Stuff\WPF YouTube tutorial\WPF YouTube tutorial\obj\Debug\WPF YouTube tuto
 D:\C# Stuff\WPF YouTube tutorial\WPF YouTube tutorial\obj\Debug\WPF YouTube tutorial.pdb
 D:\C# Stuff\WPF YouTube tutorial\WPF YouTube tutorial\obj\Debug\WPF YouTube tutorial.csprojAssemblyReference.cache
 D:\C# Stuff\WPF YouTube tutorial\WPF YouTube tutorial\obj\Debug\App.baml
+D:\C# Stuff\WPF YouTube tutorial\WPF YouTube tutorial\obj\Debug\Pages\HomePage.g.cs
+D:\C# Stuff\WPF YouTube tutorial\WPF YouTube tutorial\obj\Debug\Pages\HomePage.baml
+D:\C# Stuff\WPF YouTube tutorial\WPF YouTube tutorial\obj\Debug\Pages\NewSessionPage.g.cs
+D:\C# Stuff\WPF YouTube tutorial\WPF YouTube tutorial\obj\Debug\Pages\NewSessionPage.baml
