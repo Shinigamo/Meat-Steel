@@ -31,5 +31,23 @@ namespace WPF_YouTube_tutorial.Pages
         {
             this.NavigationService.Navigate(new NewSessionPage());
         }
+
+
+        private void btnHistory_Click(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new HistoryPage());
+        }
+
+
+        private void btnWorkoutLibrary_Click(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new WorkoutLibraryPage());
+        }
+
+
+
+
+
+
     }
 }

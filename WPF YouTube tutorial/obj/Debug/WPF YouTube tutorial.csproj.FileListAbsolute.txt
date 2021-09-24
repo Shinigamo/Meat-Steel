@@ -18,3 +18,7 @@ D:\C# Stuff\WPF YouTube tutorial\WPF YouTube tutorial\obj\Debug\Pages\HomePage.g
 D:\C# Stuff\WPF YouTube tutorial\WPF YouTube tutorial\obj\Debug\Pages\HomePage.baml
 D:\C# Stuff\WPF YouTube tutorial\WPF YouTube tutorial\obj\Debug\Pages\NewSessionPage.g.cs
 D:\C# Stuff\WPF YouTube tutorial\WPF YouTube tutorial\obj\Debug\Pages\NewSessionPage.baml
+D:\C# Stuff\WPF YouTube tutorial\WPF YouTube tutorial\obj\Debug\Pages\HistoryPage.g.cs
+D:\C# Stuff\WPF YouTube tutorial\WPF YouTube tutorial\obj\Debug\Pages\WorkoutLibraryPage.g.cs
+D:\C# Stuff\WPF YouTube tutorial\WPF YouTube tutorial\obj\Debug\Pages\HistoryPage.baml
+D:\C# Stuff\WPF YouTube tutorial\WPF YouTube tutorial\obj\Debug\Pages\WorkoutLibraryPage.baml

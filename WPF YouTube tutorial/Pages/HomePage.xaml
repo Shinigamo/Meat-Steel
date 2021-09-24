@@ -20,7 +20,7 @@
                    FontSize="50" 
                    VerticalAlignment="Center" 
                    HorizontalAlignment="Center" 
-                   Margin="50"
+                   Margin="30"
                    FontWeight="ExtraBold"
                    FontFamily="Helvetica" />
 
@@ -33,7 +33,7 @@
                 Height="50" Width="150"
                 VerticalAlignment="Top"
                 HorizontalAlignment="Left"
-                Margin="100, 150, 0, 0"
+                Margin="130, 130, 0, 0"
                 Foreground="Gray"
                 Background="#121212"
                 FontWeight="Normal"
@@ -45,6 +45,44 @@
                 
 
             />
+
+        <Button x:Name="btnHistory"
+                Content="History"
+                Height="50" Width="150"
+                VerticalAlignment="Top"
+                HorizontalAlignment="Left"
+                Margin="110, 200, 0, 0"
+                Foreground="Gray"
+                Background="#121212"
+                FontWeight="Normal"
+                FontSize="15"
+                FontStyle="Italic"
+                FontFamily="Impact"
+                Style="{DynamicResource RoundButton}"
+                Click="btnHistory_Click"
+
+
+        />
+
+        <Button x:Name="btnWorkoutLibrary"
+                Content="Workout Library"
+                Height="50" Width="150"
+                VerticalAlignment="Top"
+                HorizontalAlignment="Left"
+                Margin="90, 270, 0, 0"
+                Foreground="Gray"
+                Background="#121212"
+                FontWeight="Normal"
+                FontSize="15"
+                FontStyle="Italic"
+                FontFamily="Impact"
+                Style="{DynamicResource RoundButton}"
+                Click="btnWorkoutLibrary_Click"
+                
+
+            />
+        
+        
 
     </Grid>
 </Page>

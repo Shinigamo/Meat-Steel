@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 D:\C# Stuff\WPF YouTube tutorial\WPF YouTube tutorial\App.xaml
-3-1528297053
+5-647760186
 
-8-1105927586
+10-1037627983
 13-1505183044
-MainWindow.xaml;Pages\HomePage.xaml;Pages\NewSessionPage.xaml;
+MainWindow.xaml;Pages\HistoryPage.xaml;Pages\HomePage.xaml;Pages\NewSessionPage.xaml;Pages\WorkoutLibraryPage.xaml;
 
 True
 
