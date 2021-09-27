@@ -123,12 +123,17 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Resources\Images\background_bb_newsession.jpg" />
+  </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\Images\background_bb.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\Fonts\OFL.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\670457.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

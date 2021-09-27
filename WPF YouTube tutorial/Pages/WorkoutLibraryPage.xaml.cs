@@ -24,5 +24,14 @@ namespace WPF_YouTube_tutorial.Pages
         {
             InitializeComponent();
         }
+
+
+        // Event handler for button click. Sends the user to the Home Page (Home Button)
+        private void btnHome_Click(object sender, RoutedEventArgs e)
+        {
+
+            this.NavigationService.Navigate(new HomePage());
+        }
+
     }
 }

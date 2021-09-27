@@ -9,6 +9,26 @@
       Title="HistoryPage">
 
     <Grid>
-        
+
+
+
+        <Button x:Name="btnHome"
+                Content="home "
+                Height="50" Width="70"
+                VerticalAlignment="Top"
+                HorizontalAlignment="Left"
+                Margin="50, 50, 0, 0"
+                Foreground="Gray"
+                Background="#121212"
+                FontWeight="Normal"
+                FontSize="15"
+                FontStyle="Italic"
+                FontFamily="Impact"
+                Style="{DynamicResource RoundButton}"
+                Click="btnHome_Click" />
+
+
     </Grid>
+    
+    
 </Page>
