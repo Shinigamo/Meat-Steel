@@ -11,7 +11,7 @@
 
     <Grid>
 
-        <Image Source="/Resources/Images/background_bb_newsession.jpg" HorizontalAlignment="Center" Height="auto" VerticalAlignment="Center" Width="auto" Stretch="UniformToFill"/>
+        <Image Source="/Resources/Images/background_bb_newsession.jpg" HorizontalAlignment="Center" Height="auto" VerticalAlignment="Center" Width="auto" Stretch="UniformToFill" Panel.ZIndex="0"/>
 
 
 
@@ -75,7 +75,7 @@
                 />
 
 
-                <Grid x:Name="WorkoutGrid">
+                <Grid x:Name="WorkoutGrid" >
 
                     <Label
                 
@@ -84,7 +84,7 @@
                           Height="60" Width="200"
                           VerticalAlignment="Top"
                           HorizontalAlignment="Left"
-                          Margin="400,200,0,0"
+                          Margin="400,100,0,0"
                           Foreground="Gray"
                           FontWeight="Normal"
                           FontSize="30"
@@ -100,7 +100,7 @@
                         Height="60" Width="200"
                         VerticalAlignment="Top"
                         HorizontalAlignment="Left"
-                        Margin="600,200,0,0"
+                        Margin="600,100,0,0"
                         Foreground="Gray"
                         FontWeight="Normal"
                         FontSize="30"
@@ -116,7 +116,7 @@
                 Height="60" Width="200"
                 VerticalAlignment="Top"
                 HorizontalAlignment="Left"
-                Margin="950,200,0,0"
+                Margin="950,100,0,0"
                 Foreground="Gray"
                 FontWeight="Normal"
                 FontSize="30"
@@ -132,7 +132,7 @@
                 Height="60" Width="200"
                 VerticalAlignment="Top"
                 HorizontalAlignment="Left"
-                Margin="1200,200,0,0"
+                Margin="1200,100,0,0"
                 Foreground="Gray"
                 FontWeight="Normal"
                 FontSize="30"
@@ -149,7 +149,7 @@
                        Height="50" Width="100"
                        VerticalAlignment="Top"
                        HorizontalAlignment="Left"
-                       Margin="410,265,0,0"
+                       Margin="410,165,0,0"
                        Foreground="Gray"
                        FontWeight="Normal"
                        FontSize="30"
@@ -165,7 +165,7 @@
                       Height="40" Width="70"
                       VerticalAlignment="Top"
                       HorizontalAlignment="Left"
-                      Margin="660,275,0,0"
+                      Margin="660,175,0,0"
                       Background="#121212"
                       Foreground="Gray"
                       FontWeight="Normal"
@@ -183,7 +183,7 @@
                        Height="40" Width="70"
                       VerticalAlignment="Top"
                       HorizontalAlignment="Left"
-                      Margin="980,275,0,0"
+                      Margin="980,175,0,0"
                       Background="#121212"
                       Foreground="Gray"
                       FontWeight="Normal"
@@ -195,12 +195,11 @@
                       BorderBrush="Transparent"
                       />
 
-
                     <TextBox
                          Height="90" Width="500"
                       VerticalAlignment="Top"
                       HorizontalAlignment="Left"
-                      Margin="1200,275,0,0"
+                      Margin="1200,175,0,0"
                       Background="#121212"
                       Foreground="Gray"
                       FontWeight="Normal"
@@ -218,12 +217,30 @@
 
 
 
-
-
-
-
                 </Grid>
 
+                
+
+
+                <Button x:Name="btnAddSet"
+                        
+                           Content="+"
+                        
+                      Height="50" Width="70"
+                      VerticalAlignment="Top"
+                      HorizontalAlignment="Left"
+                      Margin="390,300,0,0"
+                      Foreground="ForestGreen"
+                      Background="#121212"
+                      FontWeight="Normal"
+                      FontSize="40"
+                      FontFamily="Impact"
+                      HorizontalContentAlignment="Center"
+                      VerticalContentAlignment="Center"
+                      Style="{DynamicResource RoundButton}"
+                      
+                        
+                        />
 
 
 
