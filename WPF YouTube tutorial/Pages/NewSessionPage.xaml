@@ -13,17 +13,28 @@
 
         <Image Source="/Resources/Images/background_bb_newsession.jpg" HorizontalAlignment="Center" Height="auto" VerticalAlignment="Center" Width="auto" Stretch="UniformToFill" Panel.ZIndex="0"/>
 
+
+
+
         <Grid>
 
-            <Image Source="/Resources/Images/wp2732950.jpg" Stretch="Fill"
+
+
+
+
+            <Grid>
+
+                <Image Source="/Resources/Images/wp2732950.jpg" Stretch="Fill"
                        
                        Margin="30"
                        VerticalAlignment="Top"
                        HorizontalAlignment="Center"
-                       Panel.ZIndex="0"          
-            />
+                       Panel.ZIndex="0"
+                       
+                       />
 
-            <Button x:Name="btnHome"
+
+                <Button x:Name="btnHome"
                         
                     Content="home "
                         
@@ -40,7 +51,8 @@
                 Style="{DynamicResource RoundButton}"
                 Click="btnHome_Click" />
 
-            <Label
+
+                <Label
                     Content="Date:"
                     Foreground="AntiqueWhite"
                     FontSize="20"
@@ -49,7 +61,7 @@
                     Margin="0,44,362,0"      
                     />
 
-            <DatePicker
+                <DatePicker
                    
                     Margin="0,48,100,0"
                     VerticalAlignment="Top"
@@ -58,12 +70,14 @@
                     FontSize="15" Width="255"
                     BorderBrush="Transparent"
                     Background="#121212"
-                   />
+                    
+                    
+                />
 
 
-            <Grid x:Name="WorkoutGrid"  >
+                <Grid x:Name="WorkoutGrid" >
 
-                <Label
+                    <Label
                 
                          Content="Set:"
                     
@@ -79,7 +93,7 @@
                     
                     />
 
-                <Label
+                    <Label
                 
                          Content="Repetitions:"
                     
@@ -95,22 +109,23 @@
                     
                 />
 
-                <Label
+                    <Label
                 
-                        Content="Weight:"
+                    Content="Weight:"
                     
-                        Height="60" Width="200"
-                        VerticalAlignment="Top"
-                        HorizontalAlignment="Left"
-                        Margin="950,100,0,0"
-                        Foreground="Gray"
-                        FontWeight="Normal"
-                        FontSize="30"
-                        FontStyle="Italic"
-                        FontFamily="Impact"   
+                Height="60" Width="200"
+                VerticalAlignment="Top"
+                HorizontalAlignment="Left"
+                Margin="950,100,0,0"
+                Foreground="Gray"
+                FontWeight="Normal"
+                FontSize="30"
+                FontStyle="Italic"
+                FontFamily="Impact"
+                    
                 />
 
-                <Label
+                    <Label
                 
                     Content="Comment:"
                     
@@ -127,7 +142,7 @@
                 />
 
 
-                <Label
+                    <Label
                         
                        Content="1."
                         
@@ -144,7 +159,7 @@
                         
                         />
 
-                <TextBox
+                    <TextBox
                         
             
                       Height="40" Width="70"
@@ -162,7 +177,7 @@
                       BorderBrush="Transparent"
                       />
 
-                <TextBox
+                    <TextBox
                         
             
                        Height="40" Width="70"
@@ -180,7 +195,7 @@
                       BorderBrush="Transparent"
                       />
 
-                <TextBox
+                    <TextBox
                          Height="90" Width="500"
                       VerticalAlignment="Top"
                       HorizontalAlignment="Left"
@@ -202,10 +217,12 @@
 
 
 
-            </Grid>
+                </Grid>
+
+                
 
 
-            <Button x:Name="btnAddSet"
+                <Button x:Name="btnAddSet"
                         
                            Content="+"
                         
@@ -221,11 +238,21 @@
                       HorizontalContentAlignment="Center"
                       VerticalContentAlignment="Center"
                       Style="{DynamicResource RoundButton}"
-           
-            />
+                      
+                        
+                        />
+
+
+
+
+            </Grid>
+
+
+
 
         </Grid>
 
-    </Grid>
 
+
+    </Grid>
 </Page>
