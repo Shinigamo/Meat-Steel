@@ -11,248 +11,29 @@
 
     <Grid>
 
-        <Image Source="/Resources/Images/background_bb_newsession.jpg" HorizontalAlignment="Center" Height="auto" VerticalAlignment="Center" Width="auto" Stretch="UniformToFill" Panel.ZIndex="0"/>
+        <Image Source="/Resources/Images/wp2732950.jpg" Stretch="Fill"
+            Margin="30"
+            VerticalAlignment="Top"
+            HorizontalAlignment="Center"
+            Panel.ZIndex="0"
+         />
+
+
+        
+        <Button Style= "{StaticResource HomeButton}"
+                Content="Home"
+                Click="btnHome_Click"
+            />
 
 
 
 
-        <Grid>
 
 
 
-
-
-            <Grid>
-
-                <Image Source="/Resources/Images/wp2732950.jpg" Stretch="Fill"
-                       
-                       Margin="30"
-                       VerticalAlignment="Top"
-                       HorizontalAlignment="Center"
-                       Panel.ZIndex="0"
-                       
-                       />
-
-
-                <Button x:Name="btnHome"
-                        
-                    Content="home "
-                        
-                Height="50" Width="70"
-                VerticalAlignment="Top"
-                HorizontalAlignment="Left"
-                Margin="100,40,0,0"
-                Foreground="Gray"
-                Background="#121212"
-                FontWeight="Normal"
-                FontSize="15"
-                FontStyle="Italic"
-                FontFamily="Impact"
-                Style="{DynamicResource RoundButton}"
-                Click="btnHome_Click" />
-
-
-                <Label
-                    Content="Date:"
-                    Foreground="AntiqueWhite"
-                    FontSize="20"
-                    HorizontalAlignment="Right"
-                    VerticalAlignment="Top"
-                    Margin="0,44,362,0"      
-                    />
-
-                <DatePicker
-                   
-                    Margin="0,48,100,0"
-                    VerticalAlignment="Top"
-                    HorizontalAlignment="Right" Height="30"
-                    SelectedDateFormat="Long"
-                    FontSize="15" Width="255"
-                    BorderBrush="Transparent"
-                    Background="#121212"
-                    
-                    
-                />
-
-
-                <Grid x:Name="WorkoutGrid" >
-
-                    <Label
-                
-                         Content="Set:"
-                    
-                          Height="60" Width="200"
-                          VerticalAlignment="Top"
-                          HorizontalAlignment="Left"
-                          Margin="400,100,0,0"
-                          Foreground="Gray"
-                          FontWeight="Normal"
-                          FontSize="30"
-                          FontStyle="Italic"
-                          FontFamily="Impact"
-                    
-                    />
-
-                    <Label
-                
-                         Content="Repetitions:"
-                    
-                        Height="60" Width="200"
-                        VerticalAlignment="Top"
-                        HorizontalAlignment="Left"
-                        Margin="600,100,0,0"
-                        Foreground="Gray"
-                        FontWeight="Normal"
-                        FontSize="30"
-                        FontStyle="Italic"
-                        FontFamily="Impact"
-                    
-                />
-
-                    <Label
-                
-                    Content="Weight:"
-                    
-                Height="60" Width="200"
-                VerticalAlignment="Top"
-                HorizontalAlignment="Left"
-                Margin="950,100,0,0"
-                Foreground="Gray"
-                FontWeight="Normal"
-                FontSize="30"
-                FontStyle="Italic"
-                FontFamily="Impact"
-                    
-                />
-
-                    <Label
-                
-                    Content="Comment:"
-                    
-                Height="60" Width="200"
-                VerticalAlignment="Top"
-                HorizontalAlignment="Left"
-                Margin="1200,100,0,0"
-                Foreground="Gray"
-                FontWeight="Normal"
-                FontSize="30"
-                FontStyle="Italic"
-                FontFamily="Impact"
-                    
-                />
-
-
-                    <Label
-                        
-                       Content="1."
-                        
-                       Height="50" Width="100"
-                       VerticalAlignment="Top"
-                       HorizontalAlignment="Left"
-                       Margin="410,165,0,0"
-                       Foreground="Gray"
-                       FontWeight="Normal"
-                       FontSize="30"
-                       FontStyle="Italic"
-                       FontFamily="Impact"
-                        
-                        
-                        />
-
-                    <TextBox
-                        
-            
-                      Height="40" Width="70"
-                      VerticalAlignment="Top"
-                      HorizontalAlignment="Left"
-                      Margin="660,175,0,0"
-                      Background="#121212"
-                      Foreground="Gray"
-                      FontWeight="Normal"
-                      FontSize="30"
-                      FontStyle="Italic"
-                      FontFamily="Impact"
-                      HorizontalContentAlignment="Center"
-                      VerticalContentAlignment="Center"
-                      BorderBrush="Transparent"
-                      />
-
-                    <TextBox
-                        
-            
-                       Height="40" Width="70"
-                      VerticalAlignment="Top"
-                      HorizontalAlignment="Left"
-                      Margin="980,175,0,0"
-                      Background="#121212"
-                      Foreground="Gray"
-                      FontWeight="Normal"
-                      FontSize="30"
-                      FontStyle="Italic"
-                      FontFamily="Impact"
-                      HorizontalContentAlignment="Center"
-                      VerticalContentAlignment="Center"
-                      BorderBrush="Transparent"
-                      />
-
-                    <TextBox
-                         Height="90" Width="500"
-                      VerticalAlignment="Top"
-                      HorizontalAlignment="Left"
-                      Margin="1200,175,0,0"
-                      Background="#121212"
-                      Foreground="Gray"
-                      FontWeight="Normal"
-                      FontSize="25"
-                      FontStyle="Italic"
-                      FontFamily="Impact"
-                      HorizontalContentAlignment="Center"
-                      VerticalContentAlignment="Center"
-                      BorderBrush="Transparent"
-                      TextWrapping="Wrap"
-                      MaxLength="100"
-                        
-                        
-                        />
-
-
-
-                </Grid>
-
-                
-
-
-                <Button x:Name="btnAddSet"
-                        
-                           Content="+"
-                        
-                      Height="50" Width="70"
-                      VerticalAlignment="Top"
-                      HorizontalAlignment="Left"
-                      Margin="390,300,0,0"
-                      Foreground="ForestGreen"
-                      Background="#121212"
-                      FontWeight="Normal"
-                      FontSize="40"
-                      FontFamily="Impact"
-                      HorizontalContentAlignment="Center"
-                      VerticalContentAlignment="Center"
-                      Style="{DynamicResource RoundButton}"
-                      
-                        
-                        />
-
-
-
-
-            </Grid>
-
-
-
-
-        </Grid>
 
 
 
     </Grid>
+    
 </Page>

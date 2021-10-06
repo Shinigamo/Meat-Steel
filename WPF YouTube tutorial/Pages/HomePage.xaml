@@ -9,7 +9,6 @@
 
     <Grid>
 
-
         <Image Source="/Resources/Images/background_bb.jpg" HorizontalAlignment="Center" Height="auto" VerticalAlignment="Center" Width="auto" Stretch="UniformToFill"/>
 
 
@@ -21,70 +20,38 @@
                    HorizontalAlignment="Center" 
                    Margin="30"
                    FontWeight="ExtraBold"
-                   FontFamily="Helvetica" />
+                   FontFamily="Helvetica"
+             />
 
         </TextBlock>
 
-        <Button x:Name="btnNewSession"
-                Content="New Session"
-                Height="50" Width="150"
-                VerticalAlignment="Top"
-                HorizontalAlignment="Left"
-                Margin="130, 130, 0, 0"
-                Foreground="Gray"
-                Background="#121212"
-                FontWeight="Normal"
-                FontSize="15"
-                FontStyle="Italic"
-                FontFamily="Impact"
-                Style="{DynamicResource RoundButton}"
+        <StackPanel Margin="150">
+
+            <Button Style="{StaticResource ButtonStyle}"
+  
+                Content="New Session" 
                 Click="btnNewSession_Click"
                 
-
             />
 
-        <Button x:Name="btnHistory"
+            <Button Style="{StaticResource ButtonStyle}"
+                    
                 Content="History"
-                Height="50" Width="150"
-                VerticalAlignment="Top"
-                HorizontalAlignment="Left"
-                Margin="110, 200, 0, 0"
-                Foreground="Gray"
-                Background="#121212"
-                FontWeight="Normal"
-                FontSize="15"
-                FontStyle="Italic"
-                FontFamily="Impact"
-                Style="{DynamicResource RoundButton}"
                 Click="btnHistory_Click"
-
-
-        />
-
-        <Button x:Name="btnWorkoutLibrary"
-                Content="Workout Library"
-                Height="50" Width="150"
-                VerticalAlignment="Top"
-                HorizontalAlignment="Left"
-                Margin="90, 270, 0, 0"
-                Foreground="Gray"
-                Background="#121212"
-                FontWeight="Normal"
-                FontSize="15"
-                FontStyle="Italic"
-                FontFamily="Impact"
-                Style="{DynamicResource RoundButton}"
-                Click="btnWorkoutLibrary_Click"
-                
+                    
 
             />
-        
-        
-        
-        
-        
-        
-        
+
+            <Button Style="{StaticResource ButtonStyle}"
+
+                Content="Workout Library"
+                Click="btnWorkoutLibrary_Click"
+                    
+            />
+
+        </StackPanel>
+
 
     </Grid>
+
 </Page>
