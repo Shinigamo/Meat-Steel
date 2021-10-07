@@ -18,7 +18,7 @@
                    FontSize="50" 
                    VerticalAlignment="Center" 
                    HorizontalAlignment="Center" 
-                   Margin="30"
+                   Margin="70"
                    FontWeight="ExtraBold"
                    FontFamily="Helvetica"
              />
