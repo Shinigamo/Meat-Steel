@@ -11,20 +11,69 @@
 
     <Grid>
 
-        <Image Source="/Resources/Images/wp2732950.jpg" Stretch="Fill"
-            Margin="30"
-            VerticalAlignment="Top"
-            HorizontalAlignment="Center"
-            Panel.ZIndex="0"
-         />
+        <Image Style="{StaticResource backgroundImage_Gray}"/>
 
 
-        
+
         <Button Style= "{StaticResource HomeButton}"
                 Content="Home"
                 Click="btnHome_Click"
-            />
+        />
 
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Height="50" VerticalAlignment="Top" Margin="50">
+            <Label Style="{StaticResource defaultLabel}">Date:</Label>
+            <DatePicker Style="{StaticResource defaultDatePicker}"></DatePicker>
+        </StackPanel>
+
+
+
+        <Border Padding="150">
+            <StackPanel>
+
+
+
+
+                <Grid>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+
+
+                    </Grid.ColumnDefinitions>
+
+                    <Label Grid.Column="0" Style="{StaticResource defaultLabel}">Workout:</Label>
+                    <Label Grid.Column="1" Style="{StaticResource defaultLabel}">Set:</Label>
+                    <Label Grid.Column="2" Style="{StaticResource defaultLabel}">Repetitions:</Label>
+                    <Label Grid.Column="3" Style="{StaticResource defaultLabel}">Weight:</Label>
+
+                </Grid>
+
+
+
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+
+                    </Grid.ColumnDefinitions>
+
+                    <ComboBox Grid.Column="0" Margin="50,0,100,0"></ComboBox>
+
+
+                    <TextBox Grid.Column="1" Style="{StaticResource defaultTextBox}"/>
+                    <TextBox Grid.Column="2" Style="{StaticResource defaultTextBox}"/>
+                    <TextBox Grid.Column="3" Style="{StaticResource defaultTextBox}"/>
+
+
+                </Grid>
+
+            </StackPanel>
+        </Border>
 
 
 
@@ -35,5 +84,5 @@
 
 
     </Grid>
-    
+
 </Page>

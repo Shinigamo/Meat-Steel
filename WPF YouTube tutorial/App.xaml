@@ -49,6 +49,7 @@
             <Setter Property="Width" Value="100"/>
             <Setter Property="Height" Value="50"/>
             <Setter Property="FontSize" Value="20"/>
+            <Setter Property="Content" Value="Home"/>
 
 
             <Style.Resources>
@@ -62,15 +63,86 @@
 
         </Style>
         
-        <!-- COMMENT PLACEHOLDER -->
-        
-        
-        
-        
-        
-        
-        
-        
+        <!-- Background *Gray* Image -->
+
+        <Style TargetType="Image" x:Key="backgroundImage_Gray">
+
+            <Setter Property="Source" Value="/Resources/Images/wp2732950.jpg"/>
+            <Setter Property="Stretch" Value="Fill"/>
+            <Setter Property="Margin" Value="30"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="Panel.ZIndex" Value="0"/>
+
+        </Style>
+
+        <!-- Default Label style and properties -->
+
+
+        <Style TargetType="Label" x:Key="defaultLabel">
+
+            <Setter Property="FontSize" Value="25"/>
+            <Setter Property="Foreground" Value="Gray"/>
+            <Setter Property="FontFamily" Value="Impact"/>
+            <Setter Property="Margin" Value="50,0,0,0"/>
+
+        </Style>
+
+
+        <!-- Default TextBox style and properties -->
+
+
+        <Style TargetType="TextBox" x:Key="defaultTextBox">
+
+            <Setter Property="FontSize" Value="30"/>
+            <Setter Property="Foreground" Value="Gray"/>
+            <Setter Property="Background" Value="#121212"/>
+            <Setter Property="FontFamily" Value="Impact"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Margin" Value="50,0"/>
+            <Setter Property="BorderBrush" Value="Transparent"/>
+
+        </Style>
+
+
+        <!-- Date Picker styles and properties -->
+
+        <Style TargetType="DatePicker" x:Key="defaultDatePicker">
+            <Setter Property="Width" Value="300"/>
+
+            <Setter Property="SelectedDateFormat" Value="Long"/>
+            <Setter Property="FontFamily" Value="Imapct"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="Foreground" Value="Gray"/>
+            <Setter Property="Margin" Value="50,5"/>
+            <Setter Property="BorderBrush" Value="Transparent"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Background" Value="#121212"/>
+
+            <Style.Resources>
+                <Style TargetType="DatePickerTextBox">
+                    
+
+
+                </Style>
+
+
+                
+            </Style.Resources>
+
+
+
+
+
+
+
+        </Style>
+
+
+
+
+
     </Application.Resources>
     
 

@@ -5,26 +5,18 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:WPF_YouTube_tutorial.Pages"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
       Title="WorkoutLibraryPage">
 
     <Grid>
 
-        <Button x:Name="btnHome"
-                Content="home "
-                Height="50" Width="70"
-                VerticalAlignment="Top"
-                HorizontalAlignment="Left"
-                Margin="50, 50, 0, 0"
-                Foreground="Gray"
-                Background="#121212"
-                FontWeight="Normal"
-                FontSize="15"
-                FontStyle="Italic"
-                FontFamily="Impact"
-                Style="{DynamicResource RoundButton}"
-                Click="btnHome_Click" />
+        <Image Style="{StaticResource backgroundImage_Gray}"/>
+
+
+        <Button Style="{StaticResource HomeButton}"
+                Click="btnHome_Click"
+                />
         
+
 
     </Grid>
 </Page>
