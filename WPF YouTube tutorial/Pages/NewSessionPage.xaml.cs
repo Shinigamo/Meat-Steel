@@ -34,7 +34,7 @@ namespace WPF_YouTube_tutorial.Pages
             this.NavigationService.Navigate(new HomePage());
         }
 
-
+        
 
 
 

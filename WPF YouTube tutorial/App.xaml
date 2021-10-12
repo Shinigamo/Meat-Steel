@@ -63,6 +63,34 @@
 
         </Style>
         
+        
+        <!-- Setters for a default button-->
+
+        <Style TargetType="Button" x:Key="defaultButton">
+
+            <Setter Property="Foreground" Value="Green"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="FontFamily" Value="Impact"/>
+            <Setter Property="Background" Value="#121212"/>
+            <Setter Property="Margin" Value="50"/>
+            <Setter Property="Width" Value="100"/>
+            <Setter Property="Height" Value="50"/>
+            <Setter Property="FontSize" Value="40"/>
+            <Setter Property="VerticalAlignment" Value="Top"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+
+
+            <Style.Resources>
+                <Style TargetType="Border">
+
+                    <Setter Property="CornerRadius" Value="15"/>
+
+                </Style>
+
+            </Style.Resources>
+
+        </Style>
+
         <!-- Background *Gray* Image -->
 
         <Style TargetType="Image" x:Key="backgroundImage_Gray">
@@ -73,6 +101,7 @@
             <Setter Property="VerticalAlignment" Value="Center"/>
             <Setter Property="HorizontalAlignment" Value="Center"/>
             <Setter Property="Panel.ZIndex" Value="0"/>
+            
 
         </Style>
 
@@ -109,8 +138,8 @@
         <!-- Date Picker styles and properties -->
 
         <Style TargetType="DatePicker" x:Key="defaultDatePicker">
+            
             <Setter Property="Width" Value="300"/>
-
             <Setter Property="SelectedDateFormat" Value="Long"/>
             <Setter Property="FontFamily" Value="Imapct"/>
             <Setter Property="FontSize" Value="20"/>
@@ -120,29 +149,10 @@
             <Setter Property="VerticalContentAlignment" Value="Center"/>
             <Setter Property="Background" Value="#121212"/>
 
-            <Style.Resources>
-                <Style TargetType="DatePickerTextBox">
-                    
-
-
-                </Style>
-
-
-                
-            </Style.Resources>
-
-
-
-
-
-
-
         </Style>
 
 
-
-
-
+        
     </Application.Resources>
     
 

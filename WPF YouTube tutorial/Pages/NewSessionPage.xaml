@@ -29,10 +29,7 @@
 
         <Border Padding="150">
             <StackPanel>
-
-
-
-
+    
                 <Grid>
 
                     <Grid.ColumnDefinitions>
@@ -52,8 +49,7 @@
                 </Grid>
 
 
-
-                <Grid>
+                <Grid x:Name="workoutDataInput_Grid" Margin="0, 0, 0, 50">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="2*"/>
                         <ColumnDefinition Width="*"/>
@@ -62,15 +58,21 @@
 
                     </Grid.ColumnDefinitions>
 
-                    <ComboBox Grid.Column="0" Margin="50,0,100,0"></ComboBox>
+                    
+                    <ComboBox Grid.Column="0"  Margin="50,0,100,0"></ComboBox>
 
 
-                    <TextBox Grid.Column="1" Style="{StaticResource defaultTextBox}"/>
+                    <Label Grid.Column="1" Style="{StaticResource defaultLabel}" Content="1."/>
                     <TextBox Grid.Column="2" Style="{StaticResource defaultTextBox}"/>
                     <TextBox Grid.Column="3" Style="{StaticResource defaultTextBox}"/>
-
+                    
+                    
 
                 </Grid>
+
+
+                <Button Style="{StaticResource defaultButton}" Content="+"/>
+
 
             </StackPanel>
         </Border>
