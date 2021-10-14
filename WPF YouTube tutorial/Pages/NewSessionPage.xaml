@@ -29,7 +29,7 @@
 
         <Border Padding="150">
             <StackPanel>
-    
+
                 <Grid>
 
                     <Grid.ColumnDefinitions>
@@ -48,30 +48,37 @@
 
                 </Grid>
 
+                <StackPanel x:Name="workoutSetsStackPanel">
 
-                <Grid x:Name="workoutDataInput_Grid" Margin="0, 0, 0, 50">
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="2*"/>
-                        <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="*"/>
+                    <Grid Margin="0, 0, 0, 50">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="2*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
 
-                    </Grid.ColumnDefinitions>
+                        </Grid.ColumnDefinitions>
+
+
+                        <ComboBox Grid.Column="0"  Margin="50,0,100,0"></ComboBox>
+
+
+                        <Label Grid.Column="1" Style="{StaticResource defaultLabel}" Content="1."/>
+                        <TextBox Grid.Column="2" Style="{StaticResource defaultTextBox}"/>
+                        <TextBox Grid.Column="3" Style="{StaticResource defaultTextBox}"/>
+
+                    </Grid>
 
                     
-                    <ComboBox Grid.Column="0"  Margin="50,0,100,0"></ComboBox>
-
-
-                    <Label Grid.Column="1" Style="{StaticResource defaultLabel}" Content="1."/>
-                    <TextBox Grid.Column="2" Style="{StaticResource defaultTextBox}"/>
-                    <TextBox Grid.Column="3" Style="{StaticResource defaultTextBox}"/>
-                    
                     
 
-                </Grid>
+                </StackPanel>
 
 
-                <Button Style="{StaticResource defaultButton}" Content="+"/>
+                <Button Style="{StaticResource defaultButton}" Content="+" 
+                        Click="btnAddNewSet"
+                        
+                        />
 
 
             </StackPanel>
