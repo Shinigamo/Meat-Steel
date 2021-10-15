@@ -37,15 +37,18 @@ namespace WPF_YouTube_tutorial.Pages
         }
 
 
-        
+
 
         private void btnAddNewSet(object sender, RoutedEventArgs e)
         {
 
             i++;
 
-            Grid workoutNewSet_grid = new Grid(); 
+            Grid workoutNewSet_grid = new Grid();
             workoutNewSet_grid.Margin = new Thickness(0, 0, 0, 50);
+            workoutNewSet_grid.Name = "Zdenko";
+
+
 
 
             //Empty column for accurate spacing
@@ -54,6 +57,8 @@ namespace WPF_YouTube_tutorial.Pages
             column1.Width = new GridLength(2, GridUnitType.Star);
             workoutNewSet_grid.ColumnDefinitions.Add(column1);
 
+
+
             //Column which contains set label
 
             ColumnDefinition column2 = new ColumnDefinition();
@@ -61,10 +66,13 @@ namespace WPF_YouTube_tutorial.Pages
             workoutNewSet_grid.ColumnDefinitions.Add(column2);
 
             Label setLabel = new Label();
-            setLabel.Content = i;
+            setLabel.Content = i + ".";
+
+            Style labelStyle = this.FindResource("defaultLabel") as Style;
+            setLabel.Style = labelStyle;
+
             workoutNewSet_grid.Children.Add(setLabel);
-            Grid.SetColumn(setLabel, 2);
-            
+            Grid.SetColumn(setLabel, 1);
 
 
 
@@ -74,18 +82,51 @@ namespace WPF_YouTube_tutorial.Pages
             column3.Width = new GridLength(1, GridUnitType.Star);
             workoutNewSet_grid.ColumnDefinitions.Add(column3);
 
+            TextBox repsTextBox = new TextBox();
+
+            Style textboxStyle = this.FindResource("defaultTextBox") as Style;
+            repsTextBox.Style = textboxStyle;
+
+            workoutNewSet_grid.Children.Add(repsTextBox);
+            Grid.SetColumn(repsTextBox, 2);
+
+
+
             //Column which contains weight input field
+
 
             ColumnDefinition column4 = new ColumnDefinition();
             column4.Width = new GridLength(1, GridUnitType.Star);
             workoutNewSet_grid.ColumnDefinitions.Add(column4);
 
 
+            TextBox weightTextBox = new TextBox();
 
+            weightTextBox.Style = textboxStyle;
 
+            workoutNewSet_grid.Children.Add(weightTextBox);
+            Grid.SetColumn(weightTextBox, 3);
 
 
             workoutSetsStackPanel.Children.Add(workoutNewSet_grid);
+
+
+            //loop which gets child elements of workoutSetsStackPanel - to get grid children need to repeat the loop withing the child itself
+
+            int count = workoutSetsStackPanel.Children.Count;
+            for (int itr = 0; itr < count; itr++)
+            {
+                if (workoutSetsStackPanel.Children[itr] is Grid 
+                    && ((Grid)workoutSetsStackPanel.Children[itr]).Name.Equals(workoutNewSet_grid.Name, StringComparison.OrdinalIgnoreCase))
+                {
+                    Console.WriteLine("YEEEET");
+                }
+            }
+
+
+
+
+
 
 
         }

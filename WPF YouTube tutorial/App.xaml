@@ -108,7 +108,7 @@
         <!-- Default Label style and properties -->
 
 
-        <Style TargetType="Label" x:Key="defaultLabel">
+        <Style TargetType="{x:Type Label}" x:Key="defaultLabel">
 
             <Setter Property="FontSize" Value="25"/>
             <Setter Property="Foreground" Value="Gray"/>
@@ -121,7 +121,7 @@
         <!-- Default TextBox style and properties -->
 
 
-        <Style TargetType="TextBox" x:Key="defaultTextBox">
+        <Style TargetType="{x:Type TextBox}" x:Key="defaultTextBox">
 
             <Setter Property="FontSize" Value="30"/>
             <Setter Property="Foreground" Value="Gray"/>
