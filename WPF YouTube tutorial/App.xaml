@@ -78,6 +78,8 @@
             <Setter Property="FontSize" Value="40"/>
             <Setter Property="VerticalAlignment" Value="Top"/>
             <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="VerticalContentAlignment" Value="Top"/>
 
 
             <Style.Resources>

@@ -37,11 +37,8 @@ namespace WPF_YouTube_tutorial.Pages
         }
 
 
-
-
-        private void btnAddNewSet(object sender, RoutedEventArgs e)
+        void generateNewSet()
         {
-
             i++;
 
             Grid workoutNewSet_grid = new Grid();
@@ -49,9 +46,6 @@ namespace WPF_YouTube_tutorial.Pages
             workoutNewSet_grid.Name = "Zdenko";
 
 
-
-
-            //Empty column for accurate spacing
 
             ColumnDefinition column1 = new ColumnDefinition();
             column1.Width = new GridLength(2, GridUnitType.Star);
@@ -113,6 +107,8 @@ namespace WPF_YouTube_tutorial.Pages
 
             //loop which gets child elements of workoutSetsStackPanel - to get grid children need to repeat the loop withing the child itself
 
+
+            /*
             int count = workoutSetsStackPanel.Children.Count;
             for (int itr = 0; itr < count; itr++)
             {
@@ -123,12 +119,34 @@ namespace WPF_YouTube_tutorial.Pages
                 }
             }
 
+            */
+        }
 
 
+        private void btnAddNewSet(object sender, RoutedEventArgs e)
+        {
+
+            generateNewSet();
+
+        }
+
+        private void btnRemoveSet(object sender, RoutedEventArgs e)
+        {
+            workoutSetsStackPanel.Children.RemoveAt(workoutSetsStackPanel.Children.Count - 1);
+            i--;
+
+
+        }
+
+
+        private void btnAddNewWorkout(object sender, RoutedEventArgs e)
+        {
 
 
 
 
         }
+
+
     }
 }
