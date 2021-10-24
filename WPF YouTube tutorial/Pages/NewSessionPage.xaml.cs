@@ -25,7 +25,7 @@ namespace WPF_YouTube_tutorial.Pages
             InitializeComponent();
         }
 
-        int i = 1;
+        int setCounter = 1;
 
 
 
@@ -37,9 +37,9 @@ namespace WPF_YouTube_tutorial.Pages
         }
 
 
-        void generateNewSet()
+        private void generateNewSet()
         {
-            i++;
+            setCounter++;
 
             Grid workoutNewSet_grid = new Grid();
             workoutNewSet_grid.Margin = new Thickness(0, 0, 0, 50);
@@ -60,7 +60,7 @@ namespace WPF_YouTube_tutorial.Pages
             workoutNewSet_grid.ColumnDefinitions.Add(column2);
 
             Label setLabel = new Label();
-            setLabel.Content = i + ".";
+            setLabel.Content = setCounter + ".";
 
             Style labelStyle = this.FindResource("defaultLabel") as Style;
             setLabel.Style = labelStyle;
@@ -133,7 +133,7 @@ namespace WPF_YouTube_tutorial.Pages
         private void btnRemoveSet(object sender, RoutedEventArgs e)
         {
             workoutSetsStackPanel.Children.RemoveAt(workoutSetsStackPanel.Children.Count - 1);
-            i--;
+            setCounter--;
 
 
         }
